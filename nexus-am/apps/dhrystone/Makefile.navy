@@ -1,0 +1,5 @@
+NAME = dhrystone-am
+APP = /home/zhanghaonan/ics2019/nexus-am/apps/dhrystone/build/dhrystone-x86-navy
+OBJS = /home/zhanghaonan/ics2019/nexus-am/apps/dhrystone/build/x86-navy//dry.o /home/zhanghaonan/ics2019/nexus-am/am/build/am-x86-navy.a /home/zhanghaonan/ics2019/nexus-am/libs/klib/build/klib-x86-navy.a
+LIBS += libndl
+include /home/zhanghaonan/ics2019/navy-apps/Makefile.app
